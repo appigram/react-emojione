@@ -46,7 +46,7 @@ const convertAsciiToUnicodeOrNull = text => {
     return null;
 };
 
-const RE_SHORTNAMES_UNICODES = RegExp(`(:\\w+:|${unicodes.replace('*','\*').join('|')})`);
+const RE_SHORTNAMES_UNICODES = RegExp(`(:\\w+:|${unicodes.join('|').replace('*', '\*')})`);
 const RE_SHORTNAMES_UNICODES_ASCII = RegExp(`(:\\w+:|${unicodes.join('|')}|${asciiRegexStr})`);
 
 const startsWithSpace = str => (/^\s/).test(str);
