@@ -24,14 +24,16 @@ const COMMENT = `/*eslint-disable */
 `;
 
 const FILENAME = '/../node_modules/emojione/assets/sprites/emojione.sprites.css';
-const REGEXP = /\.emojione-([\w-]+)\s*{\s*background-position:\s*([\d.%\s]+);/g;
+const REGEXP = new RegExp(/\.emojione-([\w-]+)\s*{\s*background-position:\s*([-?\d.px\s]+)/g);
 
-const css = fs.readFileSync(__dirname + FILENAME).toString().replace(/\n/g, '');
+const css = fs.readFileSync(__dirname + FILENAME).toString().replace(/\n/gi, '');
 
 const positions = [];
 
-let match;
-while (match = REGEXP.exec(css)) positions.push([match[1], match[2]]);
+let match = null;
+while (match = REGEXP.exec(css)) {
+  positions.push([match[1], match[2]])
+}
 
 const str = positions.map(p => `'${p[0]}':'${p[1]}'`).join(',\n');
 
