@@ -52,8 +52,8 @@ const options = {
     convertAscii: true,
     styles: {
         backgroundImage: 'url(emojione.sprites.png)',
-        width: '32px',
-        height: '32px',
+        width: '64px',
+        height: '64px',
         margin: '4px'
     },
     // this click handler will be set on every emoji
