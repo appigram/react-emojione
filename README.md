@@ -1,9 +1,10 @@
 # react-emojione2
 
-A tiny ES6 library to use emojis in React (2+ version)
+A tiny ES6 library to use emojis in React, Emoji-Mart version
 
 ## Features
 
+- Compatible with Emoji-Mart library
 - Converts :shortnames:, unicode and ASCII smileys
 - Copy-paste friendly
 - Use it as a library or mixin
