@@ -1,6 +1,6 @@
 # react-emojione2
 
-A tiny ES6 library to use emojis in React (2 version)
+A tiny ES6 library to use emojis in React (2+ version)
 
 ## Features
 
@@ -16,7 +16,7 @@ A tiny ES6 library to use emojis in React (2 version)
 ## Install
 
 ```javascript
-npm install --save react-emojione
+npm install --save react-emojione2
 ```
 
 ## Run demo

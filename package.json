@@ -1,28 +1,28 @@
 {
   "name": "react-emojione2",
-  "version": "2.2.9",
+  "version": "2.2.14",
   "description": "A tiny ES6 library to use emojis in React",
   "main": "lib/react-emojione.js",
   "dependencies": {
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1"
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.14.0",
-    "babel-core": "^6.14.0",
-    "babel-es6-polyfill": "^1.0.1",
-    "babel-loader": "^6.2.5",
-    "babel-preset-es2015": "^6.14.0",
-    "babel-preset-react": "^6.11.1",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-es6-polyfill": "^1.1.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
     "emoji-shortnames": "^1.0.1",
-    "emojione": "2.2.6",
-    "eslint": "^3.4.0",
-    "eslint-plugin-react": "^6.2.0",
+    "emojione": "2.2.7",
+    "eslint": "^3.13.1",
+    "eslint-plugin-react": "^6.9.0",
     "jsx-loader": "^0.13.2",
     "rimraf": "^2.5.4",
-    "tape": "^4.6.0",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.15.0"
+    "tape": "^4.6.3",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   },
   "files": [
     "lib",
